@@ -1,5 +1,5 @@
 
-## [1.0.0 (0005)](#)
+## [1.0.0 (1005)](#)
  - **published on** : 22 Nov, 2022
  - **features** : 
   	 - No New Features
@@ -17,7 +17,7 @@
 	 - Phone - Email verification link not working - [MYBAPS-624](https://mysatsang.atlassian.net/browse/MYBAPS-624)
 	 - Center update not working - [MYBAPS-626](https://mysatsang.atlassian.net/browse/MYBAPS-626)
 
-## [1.0.0 (0003)](#)
+## [1.0.0 (1003)](#)
  - **published on** : 17 Nov, 2022
  - **features** : 
 	 - Log in through BAPS-SSO account

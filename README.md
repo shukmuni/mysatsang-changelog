@@ -1,4 +1,3 @@
-# mySatsang mobile app ChangeLogs
 
 ## [1.0.0 (0004)](#)
  - **published on** : 22 Nov, 2022

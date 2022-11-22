@@ -1,1 +1,70 @@
-# mysatsang-changelog
+# mySatsang mobile app ChangeLogs
+
+## [1.0.0 (0004)](#)
+ - **published on** : 22 Nov, 2022
+ - **features** : 
+  	 - No New Features
+ - **Bug Fixes** :
+	 - User Profile :
+		 - Refresh button not visible after back from edit - [MYBAPS-622](https://mysatsang.atlassian.net/browse/MYBAPS-622) & [Issue-4](https://kcsglobal-my.sharepoint.com/:x:/r/personal/gopi_marvaniya_kcsitglobal_com/Documents/Gopi%20Marvaniya/BAPS/MySeva/MySeva%20DLS.xlsx?d=wd505820bf79148ae9eaa9e375dbae55b&csf=1&web=1&e=Uhr1pY&nav=MTJfQTVfe0UwREFBQjkwLUVCRTItNERCQi1BOEY5LTA3OUQ0QUQwRTE2Rn0)
+		 - First Name & Last Name initial capital - [MYBAPS-623](https://mysatsang.atlassian.net/browse/MYBAPS-623)
+		 - Verify Phone Button showing service not available - [MYBAPS-625](https://mysatsang.atlassian.net/browse/MYBAPS-625)
+		 - Keyboard focus issue on gender select - [Issue-1](https://kcsglobal-my.sharepoint.com/:x:/r/personal/gopi_marvaniya_kcsitglobal_com/Documents/Gopi%20Marvaniya/BAPS/MySeva/MySeva%20DLS.xlsx?d=wd505820bf79148ae9eaa9e375dbae55b&csf=1&web=1&e=y0YAiR&nav=MTJfQTJfe0UwREFBQjkwLUVCRTItNERCQi1BOEY5LTA3OUQ0QUQwRTE2Rn0)
+		 - Numeric keyboard for phone number - [Issue-2](https://kcsglobal-my.sharepoint.com/:x:/r/personal/gopi_marvaniya_kcsitglobal_com/Documents/Gopi%20Marvaniya/BAPS/MySeva/MySeva%20DLS.xlsx?d=wd505820bf79148ae9eaa9e375dbae55b&csf=1&web=1&e=paVfGy&nav=MTJfQTNfe0UwREFBQjkwLUVCRTItNERCQi1BOEY5LTA3OUQ0QUQwRTE2Rn0)
+		 - Appbar header on centre - [Issue-3](https://kcsglobal-my.sharepoint.com/:x:/r/personal/gopi_marvaniya_kcsitglobal_com/Documents/Gopi%20Marvaniya/BAPS/MySeva/MySeva%20DLS.xlsx?d=wd505820bf79148ae9eaa9e375dbae55b&csf=1&web=1&e=XQMSX0&nav=MTJfQTRfe0UwREFBQjkwLUVCRTItNERCQi1BOEY5LTA3OUQ0QUQwRTE2Rn0)
+	 - Landing Page :
+		 - WelCome -> Welcome - [MYBAPS-628](https://mysatsang.atlassian.net/browse/MYBAPS-628)
+ - **Pending Items** : 
+	 - Phone - Email verification link not working - [MYBAPS-624](https://mysatsang.atlassian.net/browse/MYBAPS-624)
+	 - Center update not working - [MYBAPS-626](https://mysatsang.atlassian.net/browse/MYBAPS-626)
+
+## [1.0.0 (0003)](#)
+ - **published on** : 17 Nov, 2022
+ - **features** : 
+	 - Log in through BAPS-SSO account
+	 - User Profile : 
+		 - View user's profile
+			 - Personal details
+				 - Full name along with pending name - if any (No Provision to approve pending name)
+				 - Gender
+				 - Marital Status
+				 - Age group
+				 - Mandal
+			 - Contact
+				 - Email
+					 - Primary
+					 - Secondary
+				 - Phone
+					 - Primary
+					 - Home
+					 - Other ("Work" type phone from MIS)
+				 - Primary Email & Phone will have verify button to send verification SMS/Email. or it will show verified green tick if already verified
+				 - No provision to show pending Phone-Email
+			 - Address
+				 - Full Address along with pending address - if any (No Provision to approve pending address)
+				 - BAPS center
+		 - Edit user's profile
+			 - Personal details
+				 - Editable items : name, gender, marital status, age group
+			 - Contact
+				 - Editable items : All
+				 - non-deletable items :  Primary Phone-Email
+			 - Address
+				 - App will standardise address if found any
+				 - according to entered address, center dropdown will be populated
+				 - User can choice to apply this address to other family members
+	 - User Family Profile
+		 - Here Family members of user will be listed along with their relation
+		 - pending family members will be shown with light colour along with pending message in tooltip (no provision to approve pending members)
+		 - User can see all member's profile same as his own. its also editable
+		 - Pending member's profile is not editable
+	 - Edit Family relation
+		 - Here user can edit whole family's relation
+		 - Constrains : 
+			 - Maximum one Self member is allowed
+			 - Minimum one Self member is required
+		 - relation type will be listed as per their gender
+ - **Bug Fixes** : 
+	 - No bug fixes
+ - **Pending Items** : 
+	 - No pending items
